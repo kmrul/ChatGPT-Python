@@ -1,7 +1,7 @@
 import openai
 
 
-openai.api_key = "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"
+openai.api_key = "<openai API keys>"
 
 response = openai.Image.create(
   prompt="a white siamese cat",
